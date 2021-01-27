@@ -1,0 +1,103 @@
+body {
+    font-family: 'Work Sans', sans-serif;
+    background-image: url(images/bg-pattern-top.svg), url(images/bg-pattern-bottom.svg);
+    background-color: rgb(45, 165, 180);
+    background-repeat: no-repeat;
+    background-size: 70%, 70%;
+    background-position: -250px -600px, 650px 250px;
+}
+.box {
+    background-color: white;
+    width: 320px;
+    height: 330px;
+    position: relative;
+    left: 37%;
+    top: 130px;
+    border-radius: 10px;
+    box-shadow: 3px 20px 30px rgba(0, 0, 0, 0.3);
+}
+.boxhead {
+    max-width: 100%;
+    border-radius: 10px 10px 0px 0px;
+}
+.profpic {
+    border: 4px solid white;
+    border-radius: 50px;
+    position: relative;
+    left: 35%;
+    top: -55px;
+    width: 85px;
+}
+.info {
+    text-align: center;
+    position: relative;
+    top: -60px;
+}
+.name {
+    font-weight: 900;
+    color: rgb(59, 59, 59);
+    font-size: 16px;
+}
+span {
+    color: gray;
+}
+.place {
+    color: gray;
+    position: relative;
+    top: -10px;
+    font-weight: lighter;
+    font-size: 14px;
+}
+hr {
+    position: relative;
+    top: -70px;
+    background-color: rgb(235, 235, 235);
+}
+.stats {
+    padding: 0;
+    position: relative;
+    bottom: 70px;
+}
+ul {
+    white-space: nowrap;
+    max-width: 100%;
+    position: relative;
+    left: 30px;
+}
+li {
+    width: 25%;
+    display: inline-block;
+    
+}
+.stats1 {
+    font-weight: 900;
+    color: rgb(59, 59, 59);
+    font-size: 18px;
+}
+.stats2 {
+   color: gray;
+   font-weight: lighter;
+    font-size: 10px;
+    bottom: 13px;
+}
+.fol {
+    position: relative;
+    left: -5px;
+}
+.lik {
+    position: relative;
+    left: 8px;
+}
+.pho {
+    position: relative;
+    left: 5px;
+}
+footer {
+    position: relative;
+    top: 250px;
+    text-align: center;
+    color: rgb(88, 88, 88);
+}
+footer a {
+    color: rgb(83, 98, 233);
+}
